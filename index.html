@@ -135,22 +135,11 @@
                                 
                                 <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
                                     <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                                        <div class="wistia_embed wistia_async_w5h4igmhco seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
-                                    </div>
+                                           <iframe id="videoPlayer" controls style="width:100%; height:100%;"src="https://cdn.openai.com/tmp/s/title_0.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
+                                     </div>
+                                 // script for arrow selector
 
-                                <script>
-                                    document.querySelector('#playVideo').addEventListener("click", (event) => {
-                                        window._wq = window._wq || [];
-                                        _wq.push({
-                                            id: 'w5h4igmhco',
-                                            onReady: function(video) {
-                                                console.log("I got a handle to the video!", video);
-                                                video.play()
-                                            }
-                                        });
-                                    });
-                                </script>
                             </div>
                         </div>
                     </div>
